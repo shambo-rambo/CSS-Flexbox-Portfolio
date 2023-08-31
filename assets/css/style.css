@@ -1,0 +1,185 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* This Nav Bar and Title*/
+
+header {
+  background-color: #22252C;
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  color: #eee;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+nav ul {
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  /* display: inline-block; */
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* This the Nav Switch */
+
+
+.border-switch {
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  white-space: nowrap;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.border-switch::before,
+.border-switch::after {
+  position: absolute;
+  ;
+  width: 35px;
+  height: 2px;
+  background: white;
+  content: '';
+  opacity: 0.2;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+.border-switch::before {
+  top: -6px;
+  left: -6px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+.border-switch::after {
+  right: -6px;
+  bottom: -10px;
+  transform: rotate(90deg);
+  transform-origin: 100% 0;
+}
+
+.border-switch:hover::before,
+.border-switch:hover::after {
+  opacity: 1;
+  width: 40px;
+}
+
+.border-switch:hover::before {
+  top: -5px;
+  left: calc(50%);
+  transform: rotate(0deg) translateX(-50%);
+}
+
+.border-switch:hover::after {
+  bottom: -5px;
+  right: calc(50%);
+  transform: rotate(0deg) translateX(50%);
+}
+
+/* This the Work Section */
+
+.flex-container-1{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100px;
+  margin: auto;
+  padding:auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: auto;
+  padding:auto;
+}
+
+.flexbox-item {
+  margin: 1%;
+  width: 37%;
+  }
+
+.flexbox-item-10 {
+ max-width: 50%;
+ flex-grow: 1;
+ padding-left: 1%;
+}
+
+.flexbox-item-1 {
+flex-shrink: 0;
+max-width: 20%;
+}
+
+.flexbox-item-2 {
+  flex-grow: 1;
+  min-width: 75%;
+  flex-shrink: 0;
+}
+
+.flexbox-item img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+
+
+@media (max-width: 768px) {
+  header,
+  .flex-container,
+  .flex-container-1 {
+    flex-direction: column;
+    align-content: center
+  }
+}
+
+/* First Div - Flex spaces - minimum width 100% */
