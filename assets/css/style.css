@@ -36,6 +36,12 @@ header {
   padding: 0;
 }
 
+.logo img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
 li {
   text-decoration: none;
 }
