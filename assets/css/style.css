@@ -171,8 +171,6 @@ max-width: 20%;
   transition: transform 0.3s;
 }
 
-
-
 @media (max-width: 768px) {
   header,
   .flex-container,
@@ -182,4 +180,41 @@ max-width: 20%;
   }
 }
 
-/* First Div - Flex spaces - minimum width 100% */
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.text_image {
+  position: absolute;
+  bottom: 10px;   
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;   
+  padding: 10px;  
+  font-weight: bold;  
+  opacity: 1;
+}
+
+.image-container img {
+  width: 100%;  
+  height: auto; 
+  display: block; 
+}
+
+footer {
+  padding: 20px 0;
+  background-color: white;  /* Match the header background color */
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-item a {
+  color: black; 
+  font-weight: bold;
+  display: flex;
+}

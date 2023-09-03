@@ -16,17 +16,17 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#" class="border-switch">About Me</a>
+                    <a href="#aboutMe" class="border-switch">About Me</a>
                 </li>
-                <li><a href="#" class="border-switch">Work</a></li>
-                <li><a href="#" class="border-switch">Contact Me</a></li>
-                <li><a href="#" class="border-switch">Resume</a></li>
+                <li><a href="#myWork" class="border-switch">My Work</a></li>
+                <li><a href="#contactMe" class="border-switch">Contact Me</a></li>
+                <li><a href="#contactMe" class="border-switch">Resume</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="flex-container-1">
+        <section class="flex-container-1" id="aboutMe">
             <h2 class="flexbox-item flexbox-item-1">About Me</h2>
             <div class="flexbox-item-10">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -34,27 +34,55 @@
             </div>
         </section>
 
-        <section class="flex-container">
+        <section class="flex-container" id="myWork">
             <h2 class="flexbox-item flexbox-item-1">My Work</h2>
+        
             <div class="flexbox-item flexbox-item-2">
-                <img src="assets/images/workSample1.png" alt="placeholder">
+                <div class="image-container">
+                    <img src="assets/images/workSample1.png" alt="placeholder">
+                    <div class="text_image">Work Sample 1</div>
+                </div>
             </div>
+        
             <div class="flexbox-item flexbox-item-3">
-                <img src="assets/images/workSample1.png" alt="placeholder">
+                <div class="image-container">
+                    <img src="assets/images/workSample1.png" alt="placeholder">
+                    <div class="text_image">Work Sample 2</div>
+                </div>
             </div>
+        
             <div class="flexbox-item flexbox-item-4">
-                <img src="assets/images/workSample1.png" alt="placeholder">
+                <div class="image-container">
+                    <img src="assets/images/workSample1.png" alt="placeholder">
+                    <div class="text_image">Work Sample 3</div>
+                </div>
             </div>
+        
             <div class="flexbox-item flexbox-item-3">
-                <img src="assets/images/workSample1.png" alt="placeholder">
+                <div class="image-container">
+                    <img src="assets/images/workSample1.png" alt="placeholder">
+                    <div class="text_image">Work Sample 4</div>
+                </div>
             </div>
+        
             <div class="flexbox-item flexbox-item-4">
-                <img src="assets/images/workSample1.png" alt="placeholder">
+                <div class="image-container">
+                    <img src="assets/images/workSample1.png" alt="placeholder">
+                    <div class="text_image">Work Sample 5</div>
+                </div>
             </div>
-        </section>
-
-
+        </section>        
     </main>
+
+    <footer class="flex-container-1" id="contactMe">
+        <h2 class="flexbox-item flexbox-item-1">Contact Me</h2>
+        <div class="contact-flex flexbox-item">
+            <div class="contact-item"><a href="mailto:simon.hamblin@gmail.com">Email</a></div>
+            <div class="contact-item">Phone: 0407-000-000</div>
+            <div class="contact-item"><a href="https://github.com/shambo-rambo">GitHub</a></div>
+        </div>
+    </footer>      
+
 </body>
 
 </html>
