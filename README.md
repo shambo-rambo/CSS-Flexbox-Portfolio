@@ -17,5 +17,14 @@ Media Queries: Ensures that the portfolio is responsive, with specific styles fo
 Technologies Used
 HTML: Provides the structure and content of the portfolio.
 CSS: Styles the content, includes modern techniques like Flexbox and responsive design using media queries.
-License
+
+# ScreenShots
+
+https://github.com/shambo-rambo/CSS-Flexbox-Portfolio/blob/main/assets/images/Screenshot%202023-09-03%20at%2010.39.35%20pm.png
+
+https://github.com/shambo-rambo/CSS-Flexbox-Portfolio/blob/main/assets/images/Screenshot%202023-08-24%20at%209.35.33%20pm.png
+
+# License
 This project is licensed under the MIT License. See LICENSE for more details.
+
+
